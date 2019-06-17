@@ -2,7 +2,7 @@
 * @Author: Admin
 * @Date:   2019-06-14 10:43:16
 * @Last Modified by:   Admin
-* @Last Modified time: 2019-06-16 21:56:50
+* @Last Modified time: 2019-06-17 11:24:28
 */
 *{
 	padding:0px;
@@ -188,20 +188,22 @@ a{
 	display:;
 	position:absolute;
 	font-size:14px;
+	opacity:0.8;
 	bottom:0;}
 .mid3 div p{
 	height:25px;
 }
 .dt{
 	height: 100%;
-	line-height: 290px;
 	width:100%;
 	background-color:#4c4c4c;
 	color:#f5f5f5;
-	display:none;
+	display:;
+	opacity:0.8;
 	position:absolute;
 	font-size:14px;
 	bottom:0;
+
 }
 .ys a{
 	color:#2f9140;
@@ -209,6 +211,6 @@ a{
 .ys :hover  {
 border-bottom:#2f9140 solid 3px;
 }
-.dt :hover{
+.dt :hover {
 	display:block;
 }
