@@ -2,7 +2,7 @@
 * @Author: Admin
 * @Date:   2019-06-14 10:43:16
 * @Last Modified by:   Admin
-* @Last Modified time: 2019-06-17 20:18:49
+* @Last Modified time: 2019-06-17 21:35:00
 */
 *{
 	padding:0px;
@@ -57,12 +57,24 @@ a{
 	height:45px;
 	width:1200px;
 }
-.top3 li{
+.top3 li {
 	height:45px;
 	width:115px;
 	text-align:center;
 	line-height:45px;
 	display:inline-block;
+	color:#333;
+}
+.top3 li a{
+	color:#333;
+}
+.top3 li:hover{
+	border-bottom:5px solid #2f9140;;
+	
+}
+.top3 li a:hover{
+	color:#2f9140;
+
 }
 .middle{
 	width:1200px;
@@ -196,12 +208,6 @@ a{
 .mid3 div p{
 	height:25px;
 }
-.ys a{
-	color:#2f9140;
-}
-.ys :hover  {
-border-bottom:#2f9140 solid 3px;
-}
 .a div:hover {
 	height: 100%;
 	width:100%;
@@ -224,4 +230,7 @@ border-bottom:#2f9140 solid 3px;
 	position:relative;
 	left:-33px;
 	top:-50px;
+}
+.mid2 li:hover{
+	color:#2f9140;
 }
