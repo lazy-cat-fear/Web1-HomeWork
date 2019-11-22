@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <button id="cai">
+        猜数字
+    </button>
+    <button id="shu">
+        输出猜过的数字
+    </button>
+</body>
+<script>
+    k=Math.floor(Math.random() * (101 - 1)) + 1;
+    var arr=[];
+    var j=0;
+    cai.onclick=function()
+    {
+        
+        if (j<10)
+        {
+            var i=prompt("请输入您猜的数字");
+            
+            while(i >= 1 && i <= 100){
+
+                if(i < k){
+                    alert("猜小了！");
+                    break;
+                }
+
+                else if(i == k){
+
+                 alert("猜对了！");
+                    break;
+    
+              }
+
+                else if(i > k){
+
+                 alert("猜大了！");
+                 break;
+              }
+
+            }
+
+            while(k > 100){
+
+              alert("请输入1-100的数字");
+              break;
+    
+         }
+
+            while(i < 1){
+
+               alert("请输入1-100的数字");
+               break;
+
+            }
+        arr[j]=i;
+            j++;
+        }
+    }
+    shu.onclick=function(){
+        console.log(arr);
+    }
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
